@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            list-style: none;
+        }
+        * {
+
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+        }
+
+        .nav {
+            height: 54px;
+            background: linear-gradient(rgb(255, 77, 0), rgb(5, 215, 243));
+
+        }
+
+        .navlist li {
+
+            float: left;
+            height: 40px;
+            width: 100px;
+            position: relative;
+            left: 400px;
+            top: 13px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .navlist f {
+            left: 1380px;
+            top: 13px;
+            width: 40px;
+            height: 30px;
+
+            background-image: url("");
+            border-radius: 50%;
+
+        }
+
+        .navlist e {
+            left: 1335px;
+            top: 13px;
+            width: 30px;
+            height: 30px;
+
+        }
+
+        .navlist d {
+            left: 1290px;
+            top: 13px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .navlist c {
+            left: 1245px;
+            top: 13px;
+            width: 30px;
+            height: 30px;
+
+            background-image: url("");
+            border-radius: 50%;
+
+        }
+
+        .navlist b {
+            color: black;
+            display: block;
+            position: relative;
+            right: 300px;
+        }
+
+        .navlist a {
+
+            color: black;
+
+            display: block;
+        }
+
+        .navlist {
+            width: 1600px;
+            margin: auto;
+        }
+
+        .navlist a:hover {
+            background-color: #6636DD;
+            border: 1px solid black
+        }
+
+        .navlist b:hover {
+            background-color: #6636DD;
+            border: 1px solid black
+        }
+
+        .box1 {
+            height: 500px;
+            width: 600px;
+            background-color: aliceblue;
+
+
+        }
+
+        .box2 {
+            left: 88px;
+            position: relative;
+            top: 50px;
+            width: 146px;
+            height: 70px;
+            opacity: 1;
+            font-size: 90px;
+            font-weight: 400;
+            letter-spacing: -2.7px;
+            line-height: 70px;
+            color: rgba(0, 0, 0, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box3 {
+            left: 88px;
+            position: relative;
+            top: 75px;
+            width: 200px;
+            height: 90px;
+            opacity: 1;
+            font-size: 90px;
+            font-weight: 400;
+            letter-spacing: -2.7px;
+            line-height: 70px;
+            color: rgba(0, 0, 0, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box4 {
+            left: 88px;
+            position: relative;
+            top: 100px;
+            width: 200px;
+            height: 90px;
+            opacity: 1;
+            font-size: 90px;
+            font-weight: 400;
+            letter-spacing: -2.7px;
+            line-height: 70px;
+            color: rgba(0, 0, 0, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box5 {
+            left: 88px;
+            position: relative;
+            top: 100px;
+            width: 200px;
+            height: 90px;
+            opacity: 1;
+            font-size: 30px;
+            font-weight: 200;
+            letter-spacing: -2.7px;
+            line-height: 50px;
+            color: rgba(0, 0, 0, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box6 {
+            background-color: #6636DD;
+            width: 300px;
+            height: 100px;
+
+            opacity: 1;
+            font-size: 30px;
+            font-weight: 200;
+            letter-spacing: -2.7px;
+            line-height: 100px;
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .box7 {
+            background-color: #2656f1;
+            width: 300px;
+            height: 100px;
+            position: relative;
+            left: 300px;
+            bottom: 100px;
+            opacity: 1;
+            font-size: 30px;
+            font-weight: 200;
+            letter-spacing: -2.7px;
+            line-height: 100px;
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .div8 {
+            background-color: white;
+            position: relative;
+            left: 600px;
+            top: -700px;
+            height: 600px;
+            width: 1000px;
+
+        }
+
+        .div8 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            margin: auto;
+        }
+
+        .footer {
+            background-color: aqua;
+            width: 1600px;
+            height: 80px;
+            position: relative;
+            bottom: 700px;
+            opacity: 1;
+            font-size: 30px;
+            font-weight: 200;
+            letter-spacing: -2.7px;
+            line-height: 100px;
+            color: white;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .line1 {
+            position: relative;
+            left: 278px;
+            bottom: 450px;
+            width: 262px;
+            height: 0px;
+            opacity: 1;
+            border: 1px solid rgba(71, 30, 173, 1);
+
+        }
+
+        .box9 {
+            position: relative;
+            left: 560px;
+            bottom: 490px;
+            width: 356px;
+            height: 48px;
+            opacity: 1;
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            line-height: 67.2px;
+            color: rgba(71, 30, 173, 1);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .line2 {
+            position: relative;
+            left: 936px;
+            bottom: 500px;
+            width: 262px;
+            height: 0px;
+            opacity: 1;
+
+            border: 1px solid rgba(71, 30, 173, 1);
+        }
+
+        .box10 {
+            position: relative;
+            left: 297px;
+            bottom: 400px;
+            width: 223px;
+            height: 16px;
+            opacity: 1;
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 38.4px;
+            color: rgba(71, 30, 173, 1);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .box11 {
+            position: relative;
+            left: 604px;
+            bottom: 420px;
+            width: 267px;
+            height: 16px;
+            opacity: 1;
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 38.4px;
+            color: rgba(71, 30, 173, 1);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .box12 {
+            position: relative;
+            left: 956px;
+            bottom: 435px;
+            width: 223px;
+            height: 16px;
+            opacity: 1;
+            font-size: 24px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 38.4px;
+            color: rgba(71, 30, 173, 1);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .box13 {
+            position: relative;
+            left: 278px;
+            bottom: 390px;
+            width: 262px;
+            height: 145px;
+            opacity: 1;
+
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 0px;
+            line-height: 28.8px;
+            color: rgba(0, 0, 0, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box14 {
+            position: relative;
+            left: 601px;
+            bottom: 540px;
+            width: 274px;
+            height: 145px;
+            opacity: 1;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 0px;
+            line-height: 28.8px;
+            color: rgba(0, 0, 0, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box15 {
+            position: relative;
+            left: 936px;
+            bottom: 690px;
+            width: 262px;
+            height: 145px;
+            opacity: 1;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: 0px;
+            line-height: 28.8px;
+            color: rgba(0, 0, 0, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+
+        <ul class="navlist">
+            <li><b href="#">Logo</b></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html/About.html">About</a></li>
+            <li><a href="https://js.design/f/yuLXfy?p=VmX-kg&mode=programmer">Portfolio</a></li>
+            <li><a href="html/Blog.html">Blog</a></li>
+            <li><a href="html/Contact.html">Contact</a></li>
+            <li>
+                <c href="#"><img src="img/Social Media Icons.png"></c>
+            </li>
+            <li>
+                <d href="#"><img src=""></d>
+            </li>
+            <li>
+                <e href="#"><img src=""></e>
+            </li>
+            <li>
+                <f href="#"><img src=""></e>
+            </li>
+        </ul>
+    </div>
+    <div class="box1">
+        <div class="box2">
+            Hi!</div>
+        <div class="box3">
+            I'm&nbspAllie
+        </div>
+        <div class="box4">
+            Robertson
+        </div>
+        <div class="box5">
+            Bordeaux&nbspbased&nbsp<strong>Graphic&nbspDesigner</strong>
+            who&nbsplives&nbspfor&nbspher&nbspdreams&nbspand&nbspto&nbspcreate.
+        </div>
+    </div>
+    <div class="box6">
+        Download&nbsp&nbsp&nbspCV
+    </div>
+    <div class="box7">
+        Contact&nbsp&nbsp&nbspMe
+    </div>
+    <div class="div8">
+        <img src="img/1.png">
+    </div>
+    <div class="footer">
+    </div>
+    <div class="line1">
+        <img src="img/Line 1.png">
+    </div>
+    <div class="box9">
+        <img src="img/What I Do_.png">
+    </div>
+    <div class="line2">
+        <img src="img/Line 1.png">
+    </div>
+    <div class="box10">
+        <img src="img/Branding.png">
+    </div>
+    <div class="box11">
+        <img src="img/Infographic Design.png">
+    </div>
+    <div class="box12">
+        <img src="img/Visual Art.png">
+    </div>
+    <div class="box13">
+        <img src="img/a.png">
+    </div>
+    <div class="box14">
+        <img src="img/b.png">
+    </div>
+    <div class="box15">
+        <img src="img/c.png">
+    </div>
+</body>
+
+</html>

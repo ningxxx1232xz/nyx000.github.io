@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            height: 54px;
+            background: linear-gradient(rgb(0, 255, 217), rgb(124, 52, 247));
+
+        }
+
+        .navlist li {
+
+            float: left;
+            height: 40px;
+            width: 100px;
+            position: relative;
+            left: 400px;
+            top: 13px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .navlist f {
+            left: 1380px;
+            top: 13px;
+            width: 40px;
+            height: 30px;
+
+            background-image: url("Ellipse\ 4.png");
+            border-radius: 50%;
+
+        }
+
+        .navlist e {
+            left: 1335px;
+            top: 13px;
+            width: 30px;
+            height: 30px;
+
+        }
+
+        .navlist d {
+            left: 1290px;
+            top: 13px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .navlist c {
+            left: 1245px;
+            top: 13px;
+            width: 30px;
+            height: 30px;
+
+            background-image: url("Ellipse\ 4.png");
+            border-radius: 50%;
+
+        }
+
+        .navlist b {
+            color: black;
+            display: block;
+            position: relative;
+            right: 300px;
+        }
+
+        .navlist a {
+
+            color: black;
+
+            display: block;
+        }
+
+        .navlist {
+            width: 1600px;
+            margin: auto;
+        }
+
+        .navlist a:hover {
+            background-color: #6636DD;
+            border: 1px solid black
+        }
+
+        .navlist b:hover {
+            background-color: #6636DD;
+            border: 1px solid black
+        }
+
+        .box1 {
+            position: relative;
+            left: 0px;
+            top: px;
+            width: 1440px;
+            height: 660px;
+            opacity: 1;
+            background: rgba(102, 54, 221, 1);
+
+        }
+
+        .div2 {
+            position: relative;
+            left: 0px;
+            top: 0px;
+            width: 730px;
+            height: 660px;
+            mix-blend-mode: multiply;
+            opacity: 1;
+            background: rgba(102, 54, 221, 0.25);
+        }
+
+        .div2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .box3 {
+            position: relative;
+            left: 803px;
+            bottom: 600px;
+            width: 302px;
+            height: 72px;
+            opacity: 1;
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            line-height: 67.2px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .box4 {
+            position: relative;
+            left: 803px;
+            bottom: 600px;
+            width: 372px;
+            height: 45px;
+            opacity: 1;
+            font-size: 30px;
+            font-weight: 400;
+            letter-spacing: 0px;
+            line-height: 42px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: middle;
+
+        }
+
+        .box5 {
+            position: relative;
+            left: 818px;
+            top: -600px;
+            width: 205px;
+            height: 46px;
+            opacity: 1;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.56px;
+            line-height: 19.6px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .box6 {
+            position: relative;
+            left: 803px;
+            top: -600px;
+            width: 468.5px;
+            height: 0px;
+            opacity: 1;
+
+            border: 2px solid rgba(246, 243, 255, 1);
+        }
+
+        .box7 {
+            position: relative;
+            left: 818px;
+            top: -600px;
+            width: 205px;
+            height: 45px;
+            opacity: 1;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.56px;
+            line-height: 19.6px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .box8 {
+            position: relative;
+            left: 803px;
+            top: -600px;
+            width: 468.5px;
+            height: 0px;
+            opacity: 1;
+
+            border: 2px solid rgba(246, 243, 255, 1);
+        }
+
+        .box9 {
+            position: relative;
+            left: 821px;
+            top: -600px;
+            width: 206px;
+            height: 46px;
+            opacity: 1;
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.56px;
+            line-height: 19.6px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .box10 {
+            position: relative;
+            left: 803px;
+            top: -500px;
+            width: 468.5px;
+            height: 0px;
+            opacity: 1;
+            border: 2px solid rgba(246, 243, 255, 1);
+        }
+
+        .box11 {
+            position: relative;
+            left: 0px;
+            top: -385px;
+            width: 730px;
+            height: 118px;
+            opacity: 1;
+            background: rgba(102, 54, 221, 0.5);
+        }
+
+        .box12 {
+            position: relative;
+            left: 0px;
+            top: -560px;
+            width: 1440px;
+            height: 320px;
+            opacity: 1;
+            background: rgba(24, 24, 24, 1);
+
+        }
+
+        .box13 {
+            position: relative;
+            left: 240px;
+            top: -775px;
+            width: 262px;
+            height: 9px;
+            opacity: 1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+        }
+
+        .box14 {
+            position: relative;
+            left: 670px;
+            top: -790px;
+            width: 137px;
+            height: 14px;
+            opacity: 1;
+            display: flex;
+            font-size: 24px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            line-height: 33.6px;
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .box15 {
+            position: relative;
+            left: 900px;
+            top: -800px;
+            width: 262px;
+            height: 9px;
+            opacity: 1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .box16 {
+            position: relative;
+            left: 600px;
+            top: -700px;
+            width: 232px;
+            height: 40px;
+            opacity: 1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+        }
+
+        .box17 {
+            position: relative;
+            left: 542px;
+            top: -670px;
+            width: 356px;
+            height: 20px;
+            opacity: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        ul{
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul class="navlist">
+            <li><b href="#">Logo</b></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="https://js.design/f/yuLXfy?p=VmX-kg&mode=programmer">Portfolio</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li>
+                <c href="#"><img src="../img/Social Media Icons.png"></c>
+            </li>
+            <li>
+                <d href="#"><img src=""></d>
+            </li>
+            <li>
+                <e href="#"><img src=""></e>
+            </li>
+            <li>
+                <f href="#"><img src=""></e>
+            </li>
+        </ul>
+    </div>
+    <div class="box1">
+        <div class="div2">
+            <img src="../img/di.jpg">
+        </div>
+    </div>
+    <div class="box3">
+        <img src="../img/Contact me.png">
+    </div>
+    <div class="box4">
+        <img src="../img/feel free to write anytime.png">
+    </div>
+    <div class="box5">
+        <img src="../img/Full Name.png">
+    </div>
+    <div class="box6">
+        <img src="../img/Line 1.png">
+    </div>
+    <div class="box7">
+        <img src="../img/E-Mail.png">
+    </div>
+    <div class="box8">
+        <img src="../img/Line 1.png">
+    </div>
+    <div class="box9">
+        <img src="../img/Your Message.png">
+    </div>
+    <div class="box10">
+        <img src="../img/Line 1.png">
+    </div>
+    <div class="box11">
+        <img src="../img/Rectangle 619.png">
+    </div>
+    <div class="box12">
+    </div>
+    <div class="box13">
+        <img src="../img/Links Left.png">
+    </div>
+    <div class="box14">
+        <img src="../img/Logo.png">
+    </div>
+    <div class="box15">
+        <img src="../img/Links Right.png">
+    </div>
+    <div class="box16">
+        <img src="../img/Social Media Icons.png">
+    </div>
+    <div class="box17">
+        <img src="../img/Copyright.png">
+    </div>
+</body>
+
+</html>

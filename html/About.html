@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav {
+            height: 54px;
+            background: linear-gradient(rgb(0, 255, 217), rgb(5, 61, 243));
+
+        }
+
+        .navlist li {
+
+            float: left;
+            height: 40px;
+            width: 100px;
+            position: relative;
+            left: 400px;
+            top: 13px;
+            line-height: 40px;
+            text-align: center;
+        }
+
+        .navlist f {
+            left: 1380px;
+            top: 13px;
+            width: 40px;
+            height: 30px;
+
+            background-image: url("Ellipse\ 4.png");
+            border-radius: 50%;
+
+        }
+
+        .navlist e {
+            left: 1335px;
+            top: 13px;
+            width: 30px;
+            height: 30px;
+
+        }
+
+        .navlist d {
+            left: 1290px;
+            top: 13px;
+            width: 30px;
+            height: 30px;
+        }
+
+        .navlist c {
+            left: 1245px;
+            top: 13px;
+            width: 30px;
+            height: 30px;
+
+            background-image: url("Ellipse\ 4.png");
+            border-radius: 50%;
+
+        }
+
+        .navlist b {
+            color: black;
+            display: block;
+            position: relative;
+            right: 300px;
+        }
+
+        .navlist a {
+
+            color: black;
+
+            display: block;
+        }
+
+        .navlist {
+            width: 1600px;
+            margin: auto;
+        }
+
+        .navlist a:hover {
+            background-color: #6636DD;
+            border: 1px solid black
+        }
+
+        .navlist b:hover {
+            background-color: #6636DD;
+            border: 1px solid black
+        }
+
+        .bk {
+            left: 0px;
+            top: 0px;
+            width: 1440%;
+            height: 606px;
+            opacity: 1;
+            background: rgba(102, 54, 221, 1);
+
+        }
+
+        .box1 {
+            position: relative;
+            left: 166px;
+            top: 90px;
+            width: 262px;
+            height: 37px;
+            opacity: 1;
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            line-height: 67.2px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: middle;
+        }
+
+        .box2 {
+            position: relative;
+            left: 166px;
+            top: 160px;
+            width: 450px;
+            height: 160px;
+            opacity: 1;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: -0.36px;
+            line-height: 25.2px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box3 {
+            position: relative;
+            left: 166px;
+            top: 220px;
+            width: 450px;
+            height: 160px;
+            opacity: 1;
+            font-size: 18px;
+            font-weight: 300;
+            letter-spacing: -0.36px;
+            line-height: 25.2px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box4 {
+            position: relative;
+            left: 710px;
+            bottom: 355px;
+            width: 282px;
+            height: 255px;
+            opacity: 1;
+            background: rgba(246, 243, 255, 1);
+
+        }
+
+        .box5 {
+            position: relative;
+            left: 815px;
+            bottom: 570px;
+            width: 72px;
+            height: 112px;
+            opacity: 1;
+            font-size: 80px;
+            font-weight: 300;
+            letter-spacing: -1.6px;
+            line-height: 112px;
+            color: rgba(71, 30, 173, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box6 {
+            position: relative;
+            left: 746px;
+            bottom: 560px;
+            width: 211px;
+            height: 72px;
+            opacity: 1;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: -0.6px;
+            line-height: 36px;
+            color: rgba(71, 30, 173, 1);
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .div7 {
+            position: relative;
+            left: 710px;
+            bottom: 500px;
+            width: 282px;
+            height: 309px;
+            mix-blend-mode: multiply;
+            opacity: 1;
+            background: white;
+        }
+
+        .div7 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .div8 {
+            position: relative;
+            left: 1012px;
+            bottom: 1080px;
+            width: 262px;
+            height: 309px;
+            mix-blend-mode: multiply;
+            opacity: 1;
+            background: white;
+
+        }
+
+        .div8 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .box9 {
+            position: relative;
+            left: 1012px;
+            bottom: 1065px;
+            width: 262px;
+            height: 255px;
+            opacity: 1;
+            background: rgba(125, 91, 211, 1);
+
+        }
+
+        .box10 {
+            position: relative;
+            left: 1109px;
+            bottom: 1300px;
+            width: 71px;
+            height: 112px;
+            opacity: 1;
+            font-size: 80px;
+            font-weight: 300;
+            letter-spacing: -1.6px;
+            line-height: 112px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box11 {
+            position: relative;
+            left: 1037px;
+            bottom: 1300px;
+            width: 211px;
+            height: 72px;
+            opacity: 1;
+            font-size: 30px;
+            font-weight: 300;
+            letter-spacing: -0.6px;
+            line-height: 36px;
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+            vertical-align: top;
+        }
+
+        .box12 {
+            position: relative;
+            left: 166px;
+            top: 2046px;
+            width: 1108px;
+            height: 30px;
+            opacity: 1;
+            font-size: 36px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            line-height: 50.4px;
+            color: rgba(71, 30, 173, 1);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .box13 {
+            position: relative;
+            left: 166px;
+            bottom: -100px;
+            width: 1108px;
+            height: 30px;
+            opacity: 1;
+            font-size: 36px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            line-height: 50.4px;
+            color: rgba(71, 30, 173, 1);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .box14 {
+            position: relative;
+            left: 166px;
+            top: 150px;
+            width: 111.94px;
+            height: 32px;
+            opacity: 1;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 32px;
+            color: rgba(0, 0, 0, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box15 {
+            position: relative;
+            left: 166px;
+            top: 180px;
+            width: 507px;
+            height: 19.18px;
+            opacity: 1;
+            border-radius: 1.6px;
+            background: rgba(255, 255, 255, 1);
+
+            border: 0.8px solid rgba(102, 54, 221, 1);
+        }
+
+        .box16 {
+            position: relative;
+            left: 166px;
+            top: 155px;
+            width: 430.95px;
+            height: 31.97px;
+            opacity: 1;
+            border-radius: 1.6px;
+            background: rgba(102, 54, 221, 1);
+            box-shadow: 1.6px 1.6px 4px 3.2px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .box17 {
+            position: relative;
+            left: 193.99px;
+            top: 125px;
+            width: 47.81px;
+            height: 32px;
+            opacity: 1;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0px;
+            line-height: 32px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box18 {
+            position: relative;
+            left: 767px;
+            top: 40px;
+            width: 68.8px;
+            height: 32px;
+            opacity: 1;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 32px;
+            color: rgba(0, 0, 0, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box19 {
+            position: relative;
+            left: 767px;
+            top: 62px;
+            width: 507px;
+            height: 19.18px;
+            opacity: 1;
+            border-radius: 1.6px;
+            background: rgba(255, 255, 255, 1);
+            border: 0.8px solid rgba(102, 54, 221, 1);
+        }
+
+        .box20 {
+            position: relative;
+            left: 767px;
+            top: 37px;
+            width: 481.65px;
+            height: 31.97px;
+            opacity: 1;
+            border-radius: 1.6px;
+            background: rgba(102, 54, 221, 1);
+            box-shadow: 1.6px 1.6px 4px 0px rgba(0, 0, 0, 0.1);
+        }
+
+        .box21 {
+            position: relative;
+            left: 794.99px;
+            top: 8px;
+            width: 47.81px;
+            height: 32px;
+            opacity: 1;
+            font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 0px;
+            line-height: 32px;
+            color: rgba(255, 255, 255, 1);
+            text-align: left;
+            vertical-align: top;
+        }
+
+        .box22 {
+            position: relative;
+            left: 575px;
+            top: 150px;
+            width: 288px;
+            height: 28px;
+            opacity: 1;
+            font-size: 48px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            line-height: 67.2px;
+            color: rgba(71, 30, 173, 1);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .box23 {
+            position: relative;
+            left: 166px;
+            top: 260px;
+            width: 1108px;
+            height: 69.03px;
+            opacity: 1;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0px 40px 0px 40px;
+        }
+
+        .div24 {
+            position: relative;
+            left: 0px;
+            top: 330px;
+            width: 1440px;
+            height: 420px;
+            opacity: 0.65;
+            background: rgba(102, 54, 221, 1);
+        }
+
+        .div24 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .box25 {
+            position: relative;
+            left: 397px;
+            top: 55px;
+            width: 646px;
+            height: 25px;
+            opacity: 1;
+            font-size: 36px;
+            font-weight: 600;
+            letter-spacing: 0px;
+            line-height: 50.4px;
+            color: rgb(253, 250, 250);
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .box26 {
+            position: relative;
+            left: 433px;
+            top: 80px;
+            width: 574px;
+            height: 17px;
+            opacity: 1;
+            font-size: 24px;
+            font-weight: 300;
+            letter-spacing: 0px;
+            line-height: 33.6px;
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+            vertical-align: middle;
+        }
+        ul{
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul class="navlist">
+            <li><b href="#">Logo</b></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href=https://js.design/f/yuLXfy?p=VmX-kg&mode=programmer"">Portfolio</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li>
+                <c href="#"><img src="../img/Social Media Icons.png"></c>
+            </li>
+            <li>
+                <d href="#"><img src=""></d>
+            </li>
+            <li>
+                <e href="#"><img src=""></e>
+            </li>
+            <li>
+                <f href="#"><img src=""></e>
+            </li>
+        </ul>
+    </div>
+    <div class="bk">
+        <div class="box1">
+            <img src="../img/d.png">
+        </div>
+        <div class="box2">
+            <img src="../img/e.png">
+        </div>
+        <div class="box3">
+            <img src="../img/f.png">
+        </div>
+        <div class="box4">
+        </div>
+        <div class="box5">
+            <img src="../img/10.png">
+        </div>
+        <div class="box6">
+            <img src="../img/g.png">
+        </div>
+        <div class="div7">
+            <img src="../img/na.jpg">
+        </div>
+        <div class="div8">
+            <img src="../img/nv.jpg">
+        </div>
+        <div class="box9">
+
+        </div>
+        <div class="box10">
+            <img src="../img/14.png">
+        </div>
+        <div class="box11">
+            <img src="../img/k.png">
+        </div>
+    </div>
+    <div class="box12">
+        <img src="../img/l.png">
+    </div>
+    <div class="box13">
+        <img src="../img/m.png">
+    </div>
+    <div class="box14">
+        <img src="../img/n.png">
+    </div>
+    <div class="box15">
+        <img src="../img/o.png">
+    </div>
+    <div class="box16">
+    </div>
+    <div class="box17">
+        <img src="../img/p.png">
+    </div>
+    <div class="box18">
+        <img src="../img/q.png">
+    </div>
+    <div class="box19">
+        <img src="../img/o.png">
+    </div>
+    <div class="box20">
+    </div>
+    <div class="box21">
+        <img src="../img/r.png">
+    </div>
+    <div class="box22">
+        <img src="../img/s.png">
+    </div>
+    <div class="box23">
+        <img src="../img/u.png">
+    </div>
+    <div class="div24">
+        <img src="../img/w.jpg">
+    </div>
+    <div class="box25">
+        <img src="../img/x.png">
+    </div>
+    <div class="box26">
+        <img src="../img/y.png">
+    </div>
+
+</body>
+
+</html>
